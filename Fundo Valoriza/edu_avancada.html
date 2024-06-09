@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educação Financeira Avançada - Fundo Valoriza</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .category-card {
+      cursor: pointer;
+      transition: box-shadow 0.3s ease;
+      background-color: #ffffff;
+      color: #23282B;
+    }
+    .category-card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .category-card-link:hover .category-card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .navbar-custom {
+      background-color: #343a40;
+    }
+    .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+      color: #fff;
+    }
+
+    .explore .category-card .card-titulo,
+.explore .category-card p {
+  color: #000000;
+}
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"> Fundo Valoriza</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="inde.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cursos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="curso.html">Todos os Cursos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="fund_financeiro.html">Fundamentos Financeiros</a>
+            <a class="dropdown-item" href="investimentos.html">Investimentos</a>
+            <a class="dropdown-item" href="edu_avancada.html">Educação Financeira Avançada</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="inde.html#parcerias">Parcerias</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="inde.html#beneficios">Benefícios</a>
+      </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="login.html" class="btn-login" id="loginBtn"><span class="login">Login</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="cadastro.html" class="btn-cadastro" id="signupBtn"><span class="cadastro">Cadastro</span></a>
+        </li>
+        <li class="nav-item" id="profileIcon" style="display: none;">
+          <a href="#" class="btn-profile"><span class="profile"><i class="fa fa-user-circle"></i></span></a>
+        </li>
+        <li class="nav-item" id="logoutIcon" style="display: none;">
+          <a href="#" class="btn-logout" onclick="fazerLogout()"><span class="logout">Logout</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section: Explore as nossas categorias -->
+  <section class="explore">
+    <h2 class="titulo-explore">Educação Financeira Avançada</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="url_da_categoria_1" class="category-card-link">
+            <div class="category-card">
+             
+              <h3 class="card-titulo">Planejamento Patrimonial e Sucessório</h3>
+              <p>Técnicas para planejar a gestão e transferência de patrimônio.
+
+                5 Horas</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="url_da_categoria_2" class="category-card-link">
+            <div class="category-card">
+             
+              <h3 class="card-titulo">Gestão de Riscos Financeiros Avançada</h3>
+              <p>Métodos avançados para identificar e mitigar riscos financeiros.
+
+                4 Horas</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="url_da_categoria_3" class="category-card-link">
+            <div class="category-card">
+             
+              <h3 class="card-titulo">Modelagem Financeira e Valuation</h3>
+              <p>Técnicas para modelar finanças e avaliar empresas.
+
+                6 Horas</p>
+            </div>
+          </a>
+        </div>
+        <!-- Adicionando mais cards -->
+        <div class="col-md-4">
+          <a href="url_da_categoria_4" class="category-card-link">
+            <div class="category-card">
+              
+              <h3 class="card-titulo">Estratégias Avançadas de Investimento em Ações</h3>
+              <p>Abordagens sofisticadas para maximizar retornos em ações.
+
+                5 Horas</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="url_da_categoria_5" class="category-card-link">
+            <div class="category-card">
+             
+              <h3 class="card-titulo">Análise Fundamentalista de Empresas</h3>
+              <p>Análise detalhada de fundamentos econômicos e financeiros de empresas.
+
+                4 Horas</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="url_da_categoria_6" class="category-card-link">
+            <div class="category-card">
+              
+              <h3 class="card-titulo">Finanças Comportamentais: Psicologia do Investidor</h3>
+              <p>Estudo do comportamento humano no contexto de decisões financeiras.
+
+                3 Horas</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 footer-logo">
+          <img src="logo.png" alt="Logo">
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 footer-links">
+          <h5>Páginas</h5>
+          <ul>
+            <li><a href="#inicio">Home</a></li>
+            <li><a href="curso.html">Cursos</a></li>
+            <li><a href="inde.html#parcerias"">Parcerias</a></li>
+            <li><a href="inde.html#beneficios"">Benefícios</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer-links">
+          <h5>Categorias</h5>
+          <ul>
+            <li><a href="fund_financeiro.html">Fundamentos Financeiros</a></li>
+            <li><a href="investimentos.html">Investimentos</a></li>
+            <li><a href="edu_avancada.html">Educação Financeira Avançada</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 feedback-box">
+          <h5>Feedback</h5>
+          <textarea class="form-control" rows="3" placeholder="Deixe seu feedback aqui..."></textarea>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    function toggleVisibility(elementId, shouldShow) {
+        document.getElementById(elementId).style.display = shouldShow ? 'inline-block' : 'none';
+    }
+
+    function verificarLogin() {
+        const usuarioLogado = localStorage.getItem('usuarioLogado');
+        const isLoggedIn = !!usuarioLogado;
+
+        toggleVisibility('profileIcon', isLoggedIn);
+        toggleVisibility('logoutIcon', isLoggedIn);
+        toggleVisibility('loginBtn', !isLoggedIn);
+        toggleVisibility('signupBtn', !isLoggedIn);
+    }
+
+    function fazerLogout() {
+        localStorage.removeItem('usuarioLogado');
+        window.location.href = 'login.html';
+    }
+
+    window.onload = verificarLogin;
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body

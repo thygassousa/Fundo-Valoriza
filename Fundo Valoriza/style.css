@@ -1,0 +1,537 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: auto;
+  }
+}
+.course-details {
+  text-align: center;
+}
+
+.course-details h2 {
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+.course-details p {
+  color: #6c757d;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#course-info {
+  margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo do botão de matrícula */
+#enroll-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilize o hover do botão de matrícula conforme desejado */
+#enroll-btn:hover {
+  background-color: #007bff;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #23282B !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* Espaçador do Footer */
+
+/* Estilos para o Footer */
+.footer {
+  background-color: #23282B;
+  color: white;
+  padding: 20px 0;
+
+  padding-top: 60px; /* Espaço adicional no topo do footer */
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px;
+  margin-bottom: 20px; /* Adiciona espaço abaixo da logo */
+}
+
+.social-icons {
+  margin-top: 20px; /* Espaçamento adicional abaixo da logo */
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* Títulos dos Links do Footer */
+.footer-links h5 {
+  font-size: 20px; /* Aumenta o tamanho da fonte dos títulos */
+  font-weight: bold;
+  margin-bottom: 20px; /* Aumenta o espaço entre o título e os links */
+}
+
+/* Links do Footer */
+.footer-links ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  font-size: 16px; /* Aumenta o tamanho da fonte dos links */
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Caixa de Feedback */
+.feedback-box {
+  background-color: #263238; /* Cor da caixa de feedback */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.feedback-box h5 {
+  color: white; /* Cor do título da caixa de feedback */
+}
+
+.feedback-box textarea {
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+/* Botões de Login e Cadastro */
+.btn-login{
+  background-color: #F5DEB3; /* Cor de fundo */
+  height: 40px; /* Altura do botão */
+  padding-left: 30px; /* Espaçamento interno à esquerda */
+  padding-right: 30px; /* Espaçamento interno à direita */
+  border-radius: 6px; /* Raio das bordas */
+  display: flex; /* Permite alinhar o conteúdo verticalmente */
+  align-items: center; /* Alinha o conteúdo verticalmente */
+  justify-content: center; /* Alinha o conteúdo horizontalmente */
+  position: relative; /* Define a posição do elemento */
+  border: none; /* Remove a borda */
+  margin-left: 10px; /* Adiciona um espaço à esquerda */
+}
+.btn-cadastro {
+  background-color: #F72F3A; /* Cor de fundo */
+  height: 40px; /* Altura do botão */
+  padding-left: 30px; /* Espaçamento interno à esquerda */
+  padding-right: 30px; /* Espaçamento interno à direita */
+  border-radius: 6px; /* Raio das bordas */
+  display: flex; /* Permite alinhar o conteúdo verticalmente */
+  align-items: center; /* Alinha o conteúdo verticalmente */
+  justify-content: center; /* Alinha o conteúdo horizontalmente */
+  position: relative; /* Define a posição do elemento */
+  border: none; /* Remove a borda */
+  margin-left: 10px; /* Adiciona um espaço à esquerda */
+}
+
+/* Texto dos Botões de Login e Cadastro */
+.login{
+  color: #F72F3A; /* Cor do texto */
+  font-size: 18px; /* Tamanho da fonte */
+  font-family: Inter, sans-serif; /* Fonte */
+  font-weight: 600; /* Peso da fonte */
+  line-height: 20px; /* Altura da linha */
+  text-align: center; /* Alinhamento do texto */
+}
+
+.cadastro {
+  color: #F5DEB3; /* Cor do texto */
+  font-size: 18px; /* Tamanho da fonte */
+  font-family: Inter, sans-serif; /* Fonte */
+  font-weight: 600; /* Peso da fonte */
+  line-height: 20px; /* Altura da linha */
+  text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilize o hover dos botões conforme desejado */
+.btn-login:hover,
+.btn-cadastro:hover {
+  opacity: 0.8; /* Opacidade ao passar o mouse */
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #23282B !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.text-red {
+  color: #F72F3A;
+}
+
+
+/* Destaque */
+.destaque {
+  background-color: #F5DEB3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  height: 559px;
+}
+
+.destaque h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.destaque .btn-registrar {
+  font-size: 20px;
+  padding: 10px 40px;
+}
+
+/* Section: Explore */
+
+.titulo-explore {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+
+.explore {
+  background-color: #F72F3A;
+  color: white;
+  text-align: center;
+  padding: 50px 0; /* Aumenta o espaço superior e inferior */
+}
+
+.category-card-link:hover .category-card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.category-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.category-card {
+  background-color: #23282B;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave aos cards */
+  padding: 30px;
+  margin-bottom: 30px; /* Adiciona espaço entre os cards */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.category-card .card-titulo {
+  font-size: 24px; /* Ajusta o tamanho do título do card */
+  font-weight: 700; /* Ajusta o peso da fonte do título do card */
+  color: #ffffff; /* Cor do texto */
+  margin-bottom: 15px; /* Adiciona espaço entre o título e o texto */
+}
+
+.explore .category-card h3 {
+  color: white;
+}
+
+.category-card p {
+  color: #ffffff; /* Cor do texto do parágrafo */
+  font-size: 16px; /* Ajusta o tamanho do texto do parágrafo */
+  line-height: 1.6; /* Ajusta a altura da linha do texto do parágrafo */
+}
+
+.category-card .icone-svg {
+  margin-bottom: 20px; /* Adiciona espaço entre o ícone e o título */
+}
+
+
+/* Section: Parcerias */
+.parcerias {
+  background-color:   #2C2E31;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 60px 0;
+}
+
+.parcerias h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.parcerias .btn-explorar {
+  background-color: #F72F3A;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.parcerias .btn-explorar:hover {
+  opacity: 0.8;
+}
+
+/* Section: Benefícios */
+.beneficios {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.beneficios .card-img-top {
+  width: 300px;
+  height: 300px; /* Defina a altura desejada para as imagens */
+  object-fit: cover; /* Garante que a imagem cubra completamente o espaço especificado */
+}
+
+.beneficios h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.beneficios .benefit-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.beneficios .benefit-card h3 {
+  color: #23282B;
+}
+
+.beneficios .benefit-card p {
+  color: #23282B;
+}
+
+.main-section {
+  background-color: #F5DEB3;
+  padding: 50px 0;
+}
+
+.main-section h1 {
+  font-size: 55px;
+
+  color: #333;
+  text-align: left; /* Alinha o texto à esquerda */
+  font-weight: 600; /* Semibold */
+}
+
+
+.main-section .highlight {
+  color: #F72F3A;
+}
+
+.main-section .btn-primary {
+  background-color: #ff4040;
+  border: none;
+  display: inline-block; /* Permite que o botão se alinhe ao lado do texto */
+  vertical-align: middle; /* Alinha verticalmente o botão com o texto */
+  margin-top: 10px; /* Adiciona um espaço acima do botão */
+  margin-left: 0; /* Remove qualquer margem que possa estar aplicada */
+}
+
+.icone-svg {
+  width: 60px; /* Aumenta o tamanho do ícone */
+  height: 60px; /* Aumenta o tamanho do ícone */
+  margin-bottom: 20px; /* Adiciona espaço entre o ícone e o título */
+}
+.parcerias .titulo-parcerias {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px; /* Adiciona espaço entre a imagem e o título */
+}
+
+
+
+.parcerias .subtitulo-parcerias {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.parcerias .btn-explorar {
+  background-color: #F72F3A;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px; /* Tamanho do texto do botão */
+  font-weight: 600; /* Inter Semi-Bold */
+  text-align: left; /* Alinha o botão à esquerda */
+  display: block; /* Permite que o botão ocupe toda a largura da coluna */
+}
+
+.parcerias .btn-explorar:hover {
+  opacity: 0.8;
+}
+
+.parcerias .parcerias-img {
+  margin-bottom: 20px; /* Adiciona espaço entre a imagem e os textos */
+}
+
+/* Botão de Registrar */
+/* Botão de Registrar */
+
+/* Botão de Registrar */
+.btn-primary {
+  background-color: #F72F3A;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  display: block; /* Permite que o botão ocupe toda a largura da coluna */
+  margin-top: 20px; /* Adiciona espaço acima do botão */
+  margin-left: 0 !important;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor do sombreado */
+  color: white; /* Cor do texto */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Transição suave de opacidade */
+}
+
+.card-body:hover .overlay {
+  opacity: 1; /* Mostra o sombreado quando passa o mouse sobre o card */
+}
+
+.card-title {
+  font-size: 20px; /* Tamanho do texto */
+  font-weight: bold; /* Peso da fonte */
+  text-align: center; /* Alinhamento do texto */
+}
+
+.titulo-beneficios {
+  font-size: 36px; /* Tamanho do título */
+  font-weight: 700; /* Peso da fonte */
+  text-align: center; /* Alinhamento do texto */
+  margin-bottom: 50px; /* Espaçamento inferior */
+}
+
+/* Estilos para o ícone de perfil */
+/* Estilos para o ícone de perfil */
+.profile {
+  color: white; /* Cor do ícone */
+  font-size: 24px; /* Tamanho do ícone */
+}
+
+/* Estilos para o botão de logout */
+.btn-logout {
+  background-color: transparent; /* Cor de fundo transparente */
+  border: none; /* Remove a borda */
+  cursor: pointer; /* Muda o cursor ao passar por cima */
+  margin-left: 10px; /* Adiciona espaço à esquerda do botão */
+}
+
+.logout {
+  color: white; /* Cor do texto */
+  font-size: 18px; /* Tamanho do texto */
+  font-weight: bold; /* Peso da fonte */
+}
+
+/* Estilize o hover do botão de logout */
+.btn-logout:hover {
+  text-decoration: underline; /* Sublinhe o texto ao passar o mouse */
+}

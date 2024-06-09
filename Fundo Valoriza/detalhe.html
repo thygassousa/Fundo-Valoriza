@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Curso</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Se houver um arquivo CSS personalizado -->
+    <!-- Se houver estilos específicos para esta página, você pode adicioná-los aqui -->
+    <style>
+        /* Estilos específicos para esta página */
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"> Fundo Valoriza</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="inde.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cursos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="curso.html">Todos os Cursos</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="fund_financeiro.html">Fundamentos Financeiros</a>
+                        <a class="dropdown-item" href="investimentos.html">Investimentos</a>
+                        <a class="dropdown-item" href="edu_avancada.html">Educação Financeira Avançada</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parcerias">Parcerias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#beneficios">Benefícios</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <!-- Botões de login e cadastro -->
+                <li class="nav-item">
+                    <a href="login.html" class="btn-login" id="loginBtn"><span class="login">Login</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="cadastro.html" class="btn-cadastro" id="signupBtn"><span class="cadastro">Cadastro</span></a>
+                </li>
+
+                <!-- Ícone de Perfil (inicialmente oculto) -->
+                <li class="nav-item" id="profileIcon" style="display: none;">
+                    <a href="#" class="btn-profile"><span class="profile"><i class="fa fa-user-circle"></i></span></a>
+                </li>
+                <!-- Botão de Logout -->
+                <li class="nav-item" id="logoutIcon" style="display: none;">
+                    <a href="#" class="btn-logout" onclick="fazerLogout()"><span class="logout">Logout</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo da página -->
+    <!-- Course Details Section -->
+    <section class="course-details mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Detalhes do Curso</h2>
+                            <div id="course-info"></div>
+                            <button id="enroll-btn" class="btn btn-primary">Matricular-se</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de detalhes do curso -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-logo">
+                    <img src="logo.png" alt="Logo">
+                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-links">
+                    <h5>Páginas</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Parcerias</a></li>
+                        <li><a href="#">Benefícios</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-links">
+                    <h5>Categorias</h5>
+                    <ul>
+                        <li><a href="#">Fundamentos Financeiros</a></li>
+                        <li><a href="#">Investimentos</a></li>
+                        <li><a href="#">Educação Financeira Avançada</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 feedback-box">
+                    <h5>Feedback</h5>
+                    <textarea class="form-control" rows="3" placeholder="Deixe seu feedback aqui..."></textarea>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const cards = document.querySelectorAll(".category-card");
+
+            cards.forEach(card => {
+                card.addEventListener("click", function() {
+                    const title = card.querySelector(".card-titulo").textContent.trim();
+                    const description = card.querySelector("p").textContent.trim();
+                    document.getElementById("course-info").innerHTML = `
+                    <h3>${title}</h3>
+                    <p>${description}</p>
+                    `;
+                });
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>
+  ```
