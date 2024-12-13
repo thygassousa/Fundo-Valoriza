@@ -45,6 +45,8 @@ O Fundo Valoriza foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML
 - CSS (Bootstrap)
-- JavaScript 
+- JavaScript
+- Node
+- SQL (Mysql)
 
 Obrigado por contribuir para o Projeto Fundo Valoriza!
