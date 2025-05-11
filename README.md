@@ -45,6 +45,7 @@ O Fundo Valoriza foi desenvolvido utilizando as seguintes tecnologias:
 
 - **HTML**
 - **CSS (Bootstrap)**
+- **Javascript**
 - **Apache Maven**
 - **Spring Boot**
 
