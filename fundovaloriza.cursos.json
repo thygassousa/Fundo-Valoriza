@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e1"
+  },
+  "nome": "Introdução à Educação Financeira",
+  "descricao": "Curso básico para aprender os conceitos fundamentais da educação financeira.",
+  "duracao": 8,
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Curso"
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e2"
+  },
+  "nome": "Investimentos para Iniciantes",
+  "descricao": "Aprenda a iniciar no mundo dos investimentos, com fundamentos essenciais.",
+  "duracao": 12,
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Curso"
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e3"
+  },
+  "nome": "Planejamento Financeiro Pessoal",
+  "descricao": "Curso focado em ensinar a organizar finanças pessoais e alcançar objetivos financeiros.",
+  "duracao": 10
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e4"
+  },
+  "nome": "Gestão de Riscos Financeiros",
+  "descricao": "Aprenda como avaliar e mitigar riscos ao gerenciar suas finanças pessoais e investimentos.",
+  "duracao": 14
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e5"
+  },
+  "nome": "Finanças Comportamentais",
+  "descricao": "Entenda como o comportamento humano impacta decisões financeiras e como melhorá-las.",
+  "duracao": 9
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e6"
+  },
+  "nome": "Análise Técnica de Investimentos",
+  "descricao": "Aprenda a analisar o mercado de ações usando gráficos e indicadores técnicos.",
+  "duracao": 15
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e7"
+  },
+  "nome": "Gestão de Carteiras de Investimentos",
+  "descricao": "Curso avançado sobre como montar e gerenciar carteiras de investimentos de forma eficiente.",
+  "duracao": 20
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e8"
+  },
+  "nome": "Economia Global e Investimentos",
+  "descricao": "Compreenda os impactos da economia global nas decisões de investimentos e estratégias financeiras.",
+  "duracao": 18
+},
+{
+  "_id": {
+    "$oid": "68192712ce1287f5a2e216e9"
+  },
+  "nome": "Finanças Corporativas",
+  "descricao": "Curso sobre a gestão financeira das empresas, incluindo análise de custos e fontes de financiamento.",
+  "duracao": 22
+}]

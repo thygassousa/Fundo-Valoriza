@@ -1,0 +1,526 @@
+[{
+  "_id": {
+    "$oid": "68192a02ce1287f5a2e216ee"
+  },
+  "titulo": "O que é Educação Financeira?",
+  "urlVideo": "https://www.youtube.com/watch?v=CB5zuxQl5ro",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa527fb97095cb8a64573"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a02ce1287f5a2e216ef"
+  },
+  "titulo": "Planejamento Financeiro Pessoal",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa527fb97095cb8a64573"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a02ce1287f5a2e216f0"
+  },
+  "titulo": "Controlando Seus Gastos",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa527fb97095cb8a64573"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a02ce1287f5a2e216f1"
+  },
+  "titulo": "Criação de Orçamento",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa527fb97095cb8a64573"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a02ce1287f5a2e216f2"
+  },
+  "titulo": "Primeiros Passos para Investir",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681f5e41c84f0358583bd880",
+    "681fa527fb97095cb8a64573"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a0ace1287f5a2e216f4"
+  },
+  "titulo": "O que é Investir?",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa5e916040c0b027ab833"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a0ace1287f5a2e216f5"
+  },
+  "titulo": "Tipos de Investimentos",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa5e916040c0b027ab833"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a0ace1287f5a2e216f6"
+  },
+  "titulo": "Como Escolher o Investimento Certo?",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa5e916040c0b027ab833"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a0ace1287f5a2e216f7"
+  },
+  "titulo": "Riscos e Rentabilidade dos Investimentos",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa5e916040c0b027ab833"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a0ace1287f5a2e216f8"
+  },
+  "titulo": "Como Montar sua Primeira Carteira de Investimentos",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90",
+    "681fa5e916040c0b027ab833"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a2ace1287f5a2e216fa"
+  },
+  "titulo": "O que é Planejamento Financeiro?",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e3",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "descricao": "Entenda o que é o planejamento financeiro e sua importância."
+},
+{
+  "_id": {
+    "$oid": "68192a2ace1287f5a2e216fb"
+  },
+  "titulo": "Estabelecendo Metas Financeiras",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e3",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "descricao": "Como definir metas financeiras realistas e alcançáveis."
+},
+{
+  "_id": {
+    "$oid": "68192a2ace1287f5a2e216fc"
+  },
+  "titulo": "Analisando Seus Gastos",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e3",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "descricao": "Como analisar seus gastos e encontrar áreas para economizar."
+},
+{
+  "_id": {
+    "$oid": "68192a2ace1287f5a2e216fd"
+  },
+  "titulo": "Criando um Orçamento Eficiente",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e3",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "descricao": "Como criar um orçamento eficiente que ajude a alcançar suas metas."
+},
+{
+  "_id": {
+    "$oid": "68192a2ace1287f5a2e216fe"
+  },
+  "titulo": "A Importância da Reserva de Emergência",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e3",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "descricao": "Por que você precisa de uma reserva de emergência e como construí-la."
+},
+{
+  "_id": {
+    "$oid": "68192a30ce1287f5a2e21700"
+  },
+  "titulo": "O que são Riscos Financeiros?",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e4",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a30ce1287f5a2e21701"
+  },
+  "titulo": "Identificando Riscos em Investimentos",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e4",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a30ce1287f5a2e21702"
+  },
+  "titulo": "Estratégias para Mitigar Riscos",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e4",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a30ce1287f5a2e21703"
+  },
+  "titulo": "Diversificação de Investimentos",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e4",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192a30ce1287f5a2e21704"
+  },
+  "titulo": "Como Avaliar Riscos em Finanças Pessoais",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e4",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cb6ce1287f5a2e21708"
+  },
+  "titulo": "Introdução à Finanças Comportamentais",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e5",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cb6ce1287f5a2e21709"
+  },
+  "titulo": "Teorias Psicológicas Aplicadas à Economia",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e5",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cb6ce1287f5a2e2170a"
+  },
+  "titulo": "Heurísticas e Vieses em Decisões Financeiras",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e5",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cb6ce1287f5a2e2170b"
+  },
+  "titulo": "Tomada de Decisão Sob Incerteza",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e5",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cb6ce1287f5a2e2170c"
+  },
+  "titulo": "Comportamento de Investidores",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e5",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cc2ce1287f5a2e2170e"
+  },
+  "titulo": "Introdução à Análise Técnica",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e6",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cc2ce1287f5a2e2170f"
+  },
+  "titulo": "Leitura de Gráficos e Tendências",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e6",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cc2ce1287f5a2e21710"
+  },
+  "titulo": "Indicadores Técnicos Essenciais",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e6",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cc2ce1287f5a2e21711"
+  },
+  "titulo": "Análise de Padrões Gráficos",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e6",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192cc2ce1287f5a2e21712"
+  },
+  "titulo": "Estratégias de Trading Baseadas em Análise Técnica",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e6",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "usuariosConcluidos": [
+    "681d1e13a701d92dcde61f90"
+  ],
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Aula"
+},
+{
+  "_id": {
+    "$oid": "68192ccace1287f5a2e21714"
+  },
+  "titulo": "Introdução à Gestão de Carteiras",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e7",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "descricao": "Entenda os conceitos fundamentais de gestão de carteiras de investimentos."
+},
+{
+  "_id": {
+    "$oid": "68192ccace1287f5a2e21715"
+  },
+  "titulo": "Diversificação de Investimentos",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e7",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "descricao": "Como diversificar sua carteira para reduzir riscos e maximizar retornos."
+},
+{
+  "_id": {
+    "$oid": "68192ccace1287f5a2e21716"
+  },
+  "titulo": "Alocação de Ativos",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e7",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "descricao": "Aprenda a alocar ativos na sua carteira de acordo com seu perfil de risco."
+},
+{
+  "_id": {
+    "$oid": "68192ccace1287f5a2e21717"
+  },
+  "titulo": "Rebalanceamento de Carteira",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e7",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "descricao": "Como fazer o rebalanceamento de sua carteira para manter a estratégia eficiente."
+},
+{
+  "_id": {
+    "$oid": "68192cd4ce1287f5a2e2171a"
+  },
+  "titulo": "Introdução à Economia Global",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e8",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "descricao": "Compreenda os fatores que impactam a economia global e os mercados financeiros."
+},
+{
+  "_id": {
+    "$oid": "68192cd4ce1287f5a2e2171b"
+  },
+  "titulo": "Cenários Econômicos Globais",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e8",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "descricao": "Como os cenários econômicos globais afetam os investimentos e as finanças."
+},
+{
+  "_id": {
+    "$oid": "68192cd4ce1287f5a2e2171c"
+  },
+  "titulo": "Impacto das Taxas de Juros na Economia Global",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e8",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "descricao": "Como as taxas de juros internacionais influenciam os investimentos e mercados."
+},
+{
+  "_id": {
+    "$oid": "68192cd4ce1287f5a2e2171d"
+  },
+  "titulo": "Investindo em Mercados Internacionais",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e8",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "descricao": "Estratégias para investir em mercados internacionais com risco controlado."
+},
+{
+  "_id": {
+    "$oid": "68192cd4ce1287f5a2e2171e"
+  },
+  "titulo": "Geopolítica e Suas Implicações nos Investimentos",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e8",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "descricao": "Entenda como a geopolítica afeta as decisões de investimento ao redor do mundo."
+},
+{
+  "_id": {
+    "$oid": "68192ce1ce1287f5a2e21720"
+  },
+  "titulo": "Introdução às Finanças Corporativas",
+  "urlVideo": "https://example.com/video1",
+  "cursoId": "68192712ce1287f5a2e216e9",
+  "imagemUrl": "https://example.com/imagem1.jpg",
+  "descricao": "Compreenda os fundamentos das finanças corporativas e sua importância para empresas."
+},
+{
+  "_id": {
+    "$oid": "68192ce1ce1287f5a2e21721"
+  },
+  "titulo": "Análise de Custos e Lucros",
+  "urlVideo": "https://example.com/video2",
+  "cursoId": "68192712ce1287f5a2e216e9",
+  "imagemUrl": "https://example.com/imagem2.jpg",
+  "descricao": "Aprenda a realizar uma análise de custos e lucros de uma empresa."
+},
+{
+  "_id": {
+    "$oid": "68192ce1ce1287f5a2e21722"
+  },
+  "titulo": "Gestão de Capital de Giro",
+  "urlVideo": "https://example.com/video3",
+  "cursoId": "68192712ce1287f5a2e216e9",
+  "imagemUrl": "https://example.com/imagem3.jpg",
+  "descricao": "Como gerenciar o capital de giro de uma empresa para garantir sua saúde financeira."
+},
+{
+  "_id": {
+    "$oid": "68192ce1ce1287f5a2e21723"
+  },
+  "titulo": "Fontes de Financiamento Empresarial",
+  "urlVideo": "https://example.com/video4",
+  "cursoId": "68192712ce1287f5a2e216e9",
+  "imagemUrl": "https://example.com/imagem4.jpg",
+  "descricao": "Conheça as principais fontes de financiamento para empresas e como utilizá-las."
+},
+{
+  "_id": {
+    "$oid": "68192ce1ce1287f5a2e21724"
+  },
+  "titulo": "Avaliação de Investimentos Corporativos",
+  "urlVideo": "https://example.com/video5",
+  "cursoId": "68192712ce1287f5a2e216e9",
+  "imagemUrl": "https://example.com/imagem5.jpg",
+  "descricao": "Métodos para avaliar e escolher os melhores investimentos corporativos."
+}]

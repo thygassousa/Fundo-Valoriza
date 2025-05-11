@@ -1,0 +1,189 @@
+[{
+  "_id": {
+    "$oid": "681d2d7972d123691a61f8f2"
+  },
+  "usuarioId": "681d1e13a701d92dcde61f90",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681d2f77951c674250a7eba0"
+  },
+  "usuarioId": "681d2d8472d123691a61f8f3",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681d339a053d6b5dca203bad"
+  },
+  "usuarioId": "681d1e13a701d92dcde61f90",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681d3548053d6b5dca203bae"
+  },
+  "usuarioId": "681d2d8472d123691a61f8f3",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681d46b6fd16a96441161e07"
+  },
+  "usuarioId": "681d2d8472d123691a61f8f3",
+  "cursoId": "68192712ce1287f5a2e216e6",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681e524d41f51e7d9ee73525"
+  },
+  "usuarioId": "681d1e13a701d92dcde61f90",
+  "cursoId": "68192712ce1287f5a2e216e3",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681e7bf449d5374db5d94b50"
+  },
+  "usuarioId": "681d1e13a701d92dcde61f90",
+  "cursoId": "68192712ce1287f5a2e216e4",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681e97393c9aa767a435d873"
+  },
+  "usuarioId": "681d1e13a701d92dcde61f90",
+  "cursoId": "68192712ce1287f5a2e216e5",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa1e0a4be6f0af349f944"
+  },
+  "usuarioId": "681f5e41c84f0358583bd880",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa1faa4be6f0af349f945"
+  },
+  "usuarioId": "681f5e41c84f0358583bd880",
+  "cursoId": "68192712ce1287f5a2e216e9",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa37cd0180d24d61745f8"
+  },
+  "usuarioId": "681f5e41c84f0358583bd880",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa380d0180d24d61745f9"
+  },
+  "usuarioId": "681f5e41c84f0358583bd880",
+  "cursoId": "68192712ce1287f5a2e216e7",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa395d0180d24d61745fa"
+  },
+  "usuarioId": "681d1e13a701d92dcde61f90",
+  "cursoId": "68192712ce1287f5a2e216e6",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa4e4fb97095cb8a64570"
+  },
+  "usuarioId": "681f5e41c84f0358583bd880",
+  "cursoId": "68192712ce1287f5a2e216e8",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa4e9fb97095cb8a64571"
+  },
+  "usuarioId": "681f5e41c84f0358583bd880",
+  "cursoId": "68192712ce1287f5a2e216e3",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa4ecfb97095cb8a64572"
+  },
+  "usuarioId": "681f5e41c84f0358583bd880",
+  "cursoId": "68192712ce1287f5a2e216e5",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa52bfb97095cb8a64574"
+  },
+  "usuarioId": "681fa527fb97095cb8a64573",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa5d416040c0b027ab832"
+  },
+  "usuarioId": "681fa5cf16040c0b027ab831",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fa5f416040c0b027ab834"
+  },
+  "usuarioId": "681fa5e916040c0b027ab833",
+  "cursoId": "68192712ce1287f5a2e216e1",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fb7b437242755b20ac1cb"
+  },
+  "usuarioId": "681fa527fb97095cb8a64573",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+},
+{
+  "_id": {
+    "$oid": "681fb7c937242755b20ac1cc"
+  },
+  "usuarioId": "681fa5e916040c0b027ab833",
+  "cursoId": "68192712ce1287f5a2e216e2",
+  "inscrito": true,
+  "_class": "com.cursosfinanceiros.fundovaloriza.models.Inscricao"
+}]
